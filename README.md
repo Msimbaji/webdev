@@ -1,1 +1,1 @@
-I started learning web dev from the odin project and its the first project i created
+Collection of the projects that I created while learning web development.
