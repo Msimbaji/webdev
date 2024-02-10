@@ -1,0 +1,113 @@
+header {
+  display: flex;
+  padding: 8px;
+}
+.main {
+  display: flex;
+}
+.description {
+  display: flexbox;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: whitesmoke;
+  margin-right: 20px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flexbox;
+  background-color: #1d1f21;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.question {
+  display: flexbox;
+  p {
+    display: flexbox;
+  }
+  padding: 8px;
+}
+.samplecases {
+  display: flexbox;
+  padding: 8px;
+}
+.questiondescription {
+  text-align: justify;
+  margin-left: 0px;
+  padding: 8px;
+
+  display: flexbox;
+}
+.leftsplit {
+  height: 100%;
+  max-height: 800px;
+
+  scrollbar-color: dark;
+  width: 40%;
+  float: left;
+  position: relative;
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+  display: flexbox;
+}
+.rightsplit {
+  width: 60%;
+  float: right;
+  padding: 4px;
+  position: relative;
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+  padding-left: 180px;
+  padding-top: 20%;
+
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: whitesmoke;
+}
+
+.testcases {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 4px;
+  border: 1px solid whitesmoke;
+  border-radius: 12px;
+}
+.case1 {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+.case2 {
+  display: flexbox;
+}
+.case3 {
+  display: flexbox;
+}
+
+.case2input {
+  display: none;
+
+  width: 100%;
+}
+.case3input {
+  display: none;
+
+  width: 100%;
+}
+.case2output {
+  display: none;
+
+  width: 100%;
+}
+.case3output {
+  display: none;
+  width: 100%;
+}
